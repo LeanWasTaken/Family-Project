@@ -1,4 +1,21 @@
 {
+  "language": "Language",
+  "banner": {
+    "welcome": "Welcome to Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
+    "button": "Get Lorem Ipsum'd"
+  },
   "greeting": "Hello!",
-  "welcome": "Welcome to our website."
+  "welcome": "Welcome to our website.",
+  "pages": {
+    "about": "About Us",
+    "contacts": "Contacts"
+  },
+  "cookies": {
+    "accept-all": "Accept All",
+    "accept-essential": "Accept Essential",
+    "accept-none": "Reject All",
+    "cookie-title": "Cookie Settings",
+    "cookie-description": "We use cookies to enhance your experience on our website. By clicking 'Accept All', you agree to the use of all cookies. You can choose to accept only essential cookies by selecting 'Accept Essential', or you can reject all non-essential cookies by clicking 'Reject All'. For more information about our use of cookies and your privacy rights, please see our Privacy Policy."
+  }
 }

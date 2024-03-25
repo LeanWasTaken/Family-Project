@@ -1,4 +1,20 @@
 {
-  "greeting": "Привет!",
-  "welcome": "Добро пожаловать на наш сайт."
+  "language": "Язык",
+  "banner": {
+    "welcome": "Добро пожаловать в Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
+    "button": "Получить Lorem Ipsum"
+  },
+  "welcome": "Добро пожаловать на наш веб-сайт.",
+  "pages": {
+    "about": "О нас",
+    "contacts": "Контакты"
+  },
+  "cookies": {
+    "accept-all": "Принять все",
+    "accept-essential": "Принять обязательные",
+    "accept-none": "Отклонить все",
+    "cookie-title": "Настройки файлов cookie",
+    "cookie-description": "Мы используем файлы cookie, чтобы улучшить ваш опыт на нашем веб-сайте. Нажимая “Принять все”, вы соглашаетесь на использование всех файлов cookie. Вы можете выбрать принять только обязательные файлы cookie, нажав “Принять обязательные”, или отклонить все необязательные файлы cookie, нажав “Отклонить все”. Для получения дополнительной информации о нашем использовании файлов cookie и ваших правах на конфиденциальность, пожалуйста, ознакомьтесь с нашей политикой конфиденциальности."
+  }
 }

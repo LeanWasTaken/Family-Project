@@ -1,65 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Banner from '@/components/BannerImage.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
-    <TheWelcome />
+    <Banner />
   </main>
 </template>

@@ -1,13 +1,9 @@
 <template>
-  <v-app-bar transition-mode="fade">
-    <template v-slot:prepend>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-    </template>
-
+  <v-app-bar scroll-behavior="elevate" color="rgba(0, 0, 0, 0.5)" class="navbar">
     <template v-slot:append>
       <v-menu open-on-hover>
         <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" color="primary">Language</v-btn>
+          <v-btn v-bind="props" color="primary">{{ $t('language') }}</v-btn>
         </template>
 
         <v-list>
@@ -18,7 +14,7 @@
       </v-menu>
     </template>
 
-    <v-app-bar-title>{{ $t('greeting') }}</v-app-bar-title>
+    <v-app-bar-title>Company name</v-app-bar-title>
   </v-app-bar>
 </template>
 
@@ -36,3 +32,9 @@ const changeLocale = (newLocale) => {
   locale.value = newLocale
 }
 </script>
+
+<style scoped>
+.navbar {
+  color: white;
+}
+</style>
