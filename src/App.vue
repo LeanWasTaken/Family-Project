@@ -1,16 +1,11 @@
 <script setup>
+import Navbar from '@/components/ui/NavbarComponent.vue'
 import { RouterView } from 'vue-router'
 </script>
 
 <template>
   <v-app>
-    <v-app-bar>
-      <template v-slot:prepend>
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-      </template>
-
-      <v-app-bar-title>Application Bar</v-app-bar-title>
-    </v-app-bar>
+    <Navbar />
     <v-main>
       <RouterView v-slot="{ Component }">
         <Transition name="route" mode="out-in">

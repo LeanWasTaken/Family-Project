@@ -5,5 +5,61 @@ import TheWelcome from '../components/TheWelcome.vue'
 <template>
   <main>
     <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
+    <TheWelcome />
   </main>
 </template>
