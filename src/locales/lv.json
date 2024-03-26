@@ -1,5 +1,5 @@
 {
-  "language": "Valoda",
+  "language": "LV",
   "banner": {
     "welcome": "Laipni lūdzam Lorem Ipsum",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod magna ut odio dictum, quis molestie sapien accumsan. Ut sollicitudin mauris id enim aliquam posuere. Donec congue purus nec convallis dapibus. Duis id massa eu odio suscipit consectetur. Vivamus dapibus, risus ut porttitor mattis, libero purus facilisis nisi, at facilisis ipsum ligula ut est. Nulla consequat tortor non viverra dapibus. Sed nec urna ut dolor rhoncus ultrices non nec est. Morbi non tortor urna.",
@@ -7,8 +7,9 @@
   },
   "welcome": "Laipni lūdzam mūsu tīmekļa vietnē.",
   "pages": {
-    "about": "Par mums",
-    "contacts": "Kontakti"
+    "about": "Par Mums",
+    "services": "Pakalpojumi",
+    "contact": "Kontakti"
   },
   "cookies": {
     "accept-all": "Pieņemt visus",

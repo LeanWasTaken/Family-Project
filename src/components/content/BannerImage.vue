@@ -3,12 +3,10 @@
     <div class="overlay">
       <div class="content">
         <div class="text">
-          <div class="text">
-            <h1>{{ $t('banner.welcome') }}</h1>
-            <p>{{ $t('banner.description') }}</p>
-          </div>
-          <v-btn class="button">{{ $t('banner.button') }}</v-btn>
+          <h1 class="welcome">{{ $t('banner.welcome') }}</h1>
+          <p>{{ $t('banner.description') }}</p>
         </div>
+        <v-btn class="button">{{ $t('banner.button') }}</v-btn>
       </div>
     </div>
   </div>
@@ -17,7 +15,7 @@
 <style scoped>
 .full {
   min-height: 100vh;
-  background-image: url('../assets/images/house1.jpg');
+  background-image: url('../../assets/images/house1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -45,6 +43,11 @@
   max-width: 800px;
 }
 
+.welcome {
+  font-size: 36px;
+  font-weight: bold;
+}
+
 .button {
   background-color: #4caf50;
   border: none;
@@ -59,9 +62,16 @@
 }
 
 /* Do not touch this either please */
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .content {
     text-align: center;
+  }
+  .text {
+    padding: 0px 12px;
+  }
+  .welcome {
+    font-size: 24px;
+    font-weight: bold;
   }
 }
 </style>

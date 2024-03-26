@@ -1,5 +1,5 @@
 {
-  "language": "Язык",
+  "language": "RU",
   "banner": {
     "welcome": "Добро пожаловать в Lorem Ipsum",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
@@ -8,7 +8,8 @@
   "welcome": "Добро пожаловать на наш веб-сайт.",
   "pages": {
     "about": "О нас",
-    "contacts": "Контакты"
+    "services": "Услуги",
+    "contact": "Контакты"
   },
   "cookies": {
     "accept-all": "Принять все",
