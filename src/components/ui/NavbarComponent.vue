@@ -1,9 +1,9 @@
 <template>
   <v-app-bar color="rgba(0, 0, 0, 0.5)" class="navbar">
-    <v-app-bar-title>Company name</v-app-bar-title>
+    <v-app-bar-title><RouterLink class="link" to="/">Company name</RouterLink></v-app-bar-title>
 
     <!-- Navigation buttons -->
-    <div class="navigation-buttons">
+    <div v-if="screenWidth > 700" class="navigation-buttons">
       <v-btn
         v-for="route in routes"
         :key="route.path"
@@ -13,6 +13,25 @@
       >
         {{ $t(`pages.${route.key.toLowerCase()}`) }}
       </v-btn>
+    </div>
+    <div v-else class="navigation-buttons">
+      <v-menu open-on-hover>
+        <template v-slot:activator="{ props }">
+          <v-btn v-bind="props" color="primary"><v-icon size="large">mdi-menu</v-icon>Menu</v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item v-for="route in routes" :key="route.path">
+            <v-btn
+              variant="text"
+              @click="changeLocale(item.locale)"
+              :to="route.path"
+              :class="{ active: isActive(route.path) }"
+              >{{ $t(`pages.${route.key.toLowerCase()}`) }}</v-btn
+            >
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </div>
 
     <!-- Language dropdown -->
@@ -47,7 +66,7 @@ const items = [
 ]
 
 const routes = [
-  { path: '/', name: 'About Us', key: 'about' },
+  { path: '/about', name: 'About Us', key: 'about' },
   { path: '/services', name: 'Services', key: 'services' },
   { path: '/contact', name: 'Contact', key: 'contact' }
 ]
@@ -60,9 +79,28 @@ const isActive = (path) => {
   return router.currentRoute.value.path === path
 }
 
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+
+const screenWidth = ref(window.innerWidth)
+
+const updateScreenWidth = () => {
+  screenWidth.value = window.innerWidth
+}
+
+onMounted(() => {
+  window.addEventListener('resize', updateScreenWidth)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateScreenWidth)
+})
 </script>
 
 <style scoped>
+v-app-bar-title.link {
+  text-decoration: none;
+  color: white;
+}
 .navbar {
   color: white;
 }
@@ -73,10 +111,10 @@ const isActive = (path) => {
 }
 
 .navigation-buttons .v-btn {
-  margin: 0 10px; /* Adjust spacing between buttons */
+  margin: 0 10px;
 }
 
 .active {
-  font-weight: bold; /* Example: Make the active button bold */
+  font-weight: bold;
 }
 </style>

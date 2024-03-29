@@ -7,6 +7,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 
 export default defineConfig({
+  base: "/FamProject/",
   plugins: [
     vue(),
     vueJsx(),

@@ -1,10 +1,5 @@
 {
   "language": "LV",
-  "banner": {
-    "welcome": "Laipni lūdzam Lorem Ipsum",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod magna ut odio dictum, quis molestie sapien accumsan. Ut sollicitudin mauris id enim aliquam posuere. Donec congue purus nec convallis dapibus. Duis id massa eu odio suscipit consectetur. Vivamus dapibus, risus ut porttitor mattis, libero purus facilisis nisi, at facilisis ipsum ligula ut est. Nulla consequat tortor non viverra dapibus. Sed nec urna ut dolor rhoncus ultrices non nec est. Morbi non tortor urna.",
-    "button": "Iegūt Lorem Ipsum"
-  },
   "welcome": "Laipni lūdzam mūsu tīmekļa vietnē.",
   "pages": {
     "about": "Par Mums",
@@ -17,5 +12,18 @@
     "accept-none": "Noraidīt visus",
     "cookie-title": "Sīkdatņu iestatījumi",
     "cookie-description": "Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pieredzi mūsu vietnē. Noklikšķinot uz “Pieņemt visus”, jūs piekrītat visu sīkdatņu izmantošanai. Jūs varat izvēlēties pieņemt tikai obligātās sīkdatnes, noklikšķinot uz “Pieņemt obligātos”, vai noraidīt visas nesaistītās sīkdatnes, noklikšķinot uz “Noraidīt visus”. Lai iegūtu vairāk informācijas par mūsu sīkdatņu izmantošanu un jūsu privātuma tiesībām, lūdzu, aplūkojiet mūsu privātuma politiku."
+  },
+  "banner": {
+    "welcome": "Laipni lūdzam Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod magna ut odio dictum, quis molestie sapien accumsan. Ut sollicitudin mauris id enim aliquam posuere. Donec congue purus nec convallis dapibus. Duis id massa eu odio suscipit consectetur. Vivamus dapibus, risus ut porttitor mattis, libero purus facilisis nisi, at facilisis ipsum ligula ut est. Nulla consequat tortor non viverra dapibus. Sed nec urna ut dolor rhoncus ultrices non nec est. Morbi non tortor urna.",
+    "button": "Iegūt Lorem Ipsum"
+  },
+  "about": {
+    "image-1-title": "Lorem ipsum",
+    "image-1-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
+    "image-2-title": "Lorem ipsum",
+    "image-2-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
+    "image-3-title": "Lorem ipsum",
+    "image-3-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat."
   }
 }
