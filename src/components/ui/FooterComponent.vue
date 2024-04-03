@@ -58,15 +58,15 @@
 
 <style scoped>
 .logo {
-  width: 100px; /* Adjust logo width as needed */
+  width: 100px;
 }
 
 .company-name {
-  margin-top: 10px; /* Adjust margin as needed */
+  margin-top: 10px;
 }
 
 .social-media-icon {
-  margin: 5px; /* Adjust margin as needed */
+  margin: 5px;
 }
 a {
   text-decoration: none;

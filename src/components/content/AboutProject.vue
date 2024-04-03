@@ -65,6 +65,7 @@ onBeforeUnmount(() => {
 
 .content {
   max-width: 1240px;
+  margin-bottom: 10px;
 }
 
 .text-column {
@@ -76,12 +77,12 @@ onBeforeUnmount(() => {
 /* Media query for smaller viewports */
 @media (max-width: 960px) {
   .content {
-    padding: 0px 25px; /* Adjust padding */
+    padding: 0px 25px;
   }
 
   .text-column {
-    align-items: center; /* Center text vertically on smaller viewports */
-    text-align: center; /* Center text horizontally on smaller viewports */
+    align-items: center;
+    text-align: center;
   }
   .image {
     min-height: 400px;

@@ -8,11 +8,13 @@ import { RouterView } from 'vue-router'
   <v-app>
     <Navbar />
     <v-main>
-      <RouterView v-slot="{ Component }">
+      <!--<RouterView v-slot="{ Component }">
         <Transition name="route" mode="out-in">
           <component :is="Component"></component>
         </Transition>
-      </RouterView>
+      </RouterView>-->
+      <RouterView />
+
     </v-main>
     <Footer />
   </v-app>
