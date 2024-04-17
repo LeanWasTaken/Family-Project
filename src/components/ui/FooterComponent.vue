@@ -2,7 +2,7 @@
   <v-footer class="bg-blue-grey-darken-3">
     <v-row justify="center" no-gutters>
       <v-col cols="12" sm="6" md="2">
-        <img src="../../assets/images/logo.webp" alt="Company Logo" class="logo" />
+        <img class="logo" src="/SATISHOUSE-noBG.png" alt="logo" />
         <div class="company-name title">Company Name</div>
       </v-col>
 
@@ -68,10 +68,12 @@
 .social-media-icon {
   margin: 5px;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
 .title {
   font-weight: bold;
   font-size: 18px;
