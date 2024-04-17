@@ -18,6 +18,9 @@
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
     "button": "Получить Lorem Ipsum"
   },
+  "contact": {
+    "slogan": "Не можете выбрать? Мы Вам поможем!"
+  },
   "about": {
     "image-1-title": "Lorem ipsum",
     "image-1-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
@@ -33,5 +36,14 @@
     "houses-contour": "Теплый контур",
     "houses-terrace": "Терраса",
     "houses-seiling": "Высота потолков"
+  },
+  "footer": {
+    "useful-info": {
+      "title": "Полезная информация",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Правила использования"
+    },
+    "contact": "Контакты",
+    "socials": "Наши социальные сети"
   }
 }

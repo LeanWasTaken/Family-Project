@@ -1,58 +1,58 @@
 <template>
   <v-footer class="bg-blue-grey-darken-3 footer">
-    <v-row justify="center" no-gutters>
-      <v-col cols="12" sm="6" md="2">
-        <img class="logo" src="/logo-noBG.png" alt="logo" />
-        <div class="company-name title">SATIS HOUSE</div>
-      </v-col>
+    <v-container class="wrapper">
+      <v-row justify="center" no-gutters class="text-center main-row">
+        <!-- Logo and Company Name -->
+        <v-col cols="12" sm="12" md="3">
+          <img class="logo" src="/logo-noBG.png" alt="logo" />
+          <div class="company-name title">SATIS HOUSE</div>
+        </v-col>
 
-      <!-- Column 2: About Us -->
-      <v-col cols="12" sm="6" md="2">
-        <h3 class="title">About Us</h3>
-        <ul>
-          <li><a href="#">Mission</a></li>
-          <li><a href="#">Vision</a></li>
-          <li><a href="#">Values</a></li>
-        </ul>
-      </v-col>
+        <!-- Products Section -->
+        <v-col cols="12" sm="4" md="3">
+          <h3 class="title">{{ $t('footer.useful-info.title') }}</h3>
+          <ul class="no-bullet-list">
+            <li>
+              <a href="#">{{ $t('footer.useful-info.privacy') }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t('footer.useful-info.terms') }}</a>
+            </li>
+          </ul>
+        </v-col>
 
-      <!-- Column 3: Team -->
-      <v-col cols="12" sm="6" md="2">
-        <h3 class="title">Products</h3>
-        <ul>
-          <li><a href="#">Our Members</a></li>
-          <li><a href="#">Join Us</a></li>
-        </ul>
-      </v-col>
+        <!-- Contact Us Section -->
+        <v-col cols="12" sm="4" md="3">
+          <h3 class="title">{{ $t('footer.contact') }}</h3>
+          <ul class="no-bullet-list">
+            <li>
+              <v-icon>mdi-home</v-icon>Gaujas 24/21, Vangaži, Inčukalna novads, Latvija, LV2136.
+            </li>
+            <li><v-icon>mdi-phone</v-icon><a href="tel:+37125521166">+371 25521166</a></li>
+            <li><v-icon>mdi-email</v-icon><a href="mailto:info@satis.lv">info@satis.lv</a></li>
+          </ul>
+        </v-col>
 
-      <!-- Column 4: Services -->
-      <v-col cols="12" sm="6" md="2">
-        <h3 class="title">Contact Us</h3>
-        <ul>
-          <li><v-icon>mdi-home</v-icon>Location goes here</li>
-          <li><v-icon>mdi-phone</v-icon>+37112345678</li>
-          <li><v-icon>mdi-email</v-icon>E-Mail goes here</li>
-        </ul>
-      </v-col>
+        <!-- Social Media Section -->
+        <v-col cols="12" sm="4" md="3">
+          <h3 class="title">{{ $t('footer.socials') }}</h3>
+          <v-btn icon class="social-media-icon">
+            <v-icon>mdi-facebook</v-icon>
+          </v-btn>
+          <v-btn icon class="social-media-icon">
+            <v-icon>mdi-plane</v-icon>
+          </v-btn>
+          <v-btn icon class="social-media-icon">
+            <v-icon>mdi-instagram</v-icon>
+          </v-btn>
+        </v-col>
 
-      <!-- Column 5: Social Media Buttons -->
-      <v-col cols="12" sm="6" md="2">
-        <h3 class="title">Connect With Us</h3>
-        <v-btn icon class="social-media-icon">
-          <v-icon>mdi-facebook</v-icon>
-        </v-btn>
-        <v-btn icon class="social-media-icon">
-          <v-icon>mdi-telegram</v-icon>
-        </v-btn>
-        <v-btn icon class="social-media-icon">
-          <v-icon>mdi-instagram</v-icon>
-        </v-btn>
-      </v-col>
-
-      <v-col class="text-center mt-4" cols="12">
-        {{ new Date().getFullYear() }} — <strong>SATIS HOUSE</strong>
-      </v-col>
-    </v-row>
+        <!-- Copyright Section -->
+        <v-col class="text-center mt-4" cols="12">
+          {{ new Date().getFullYear() }} — <strong>SATIS HOUSE</strong>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-footer>
 </template>
 
@@ -77,5 +77,18 @@ a {
 .title {
   font-weight: bold;
   font-size: 18px;
+}
+
+.footer {
+  padding: 24px 0; /* Add padding to the footer */
+  width: 100%;
+}
+
+.no-bullet-list {
+  list-style: none; /* Remove default list style */
+  padding-left: 0; /* Remove default list padding */
+}
+.wrapper {
+  max-width: 1480px;
 }
 </style>

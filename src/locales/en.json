@@ -18,6 +18,9 @@
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
     "button": "Get Lorem Ipsum'd"
   },
+  "contact": {
+    "slogan": "Can't choose ? We're here to help"
+  },
   "about": {
     "image-1-title": "Lorem ipsum",
     "image-1-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
@@ -33,5 +36,14 @@
     "houses-contour": "Thermal contour",
     "houses-terrace": "Terrace",
     "houses-seiling": "Ceiling height"
+  },
+  "footer": {
+    "useful-info": {
+      "title": "Useful Info",
+      "privacy": "Privacy Policy",
+      "terms": "Terms"
+    },
+    "contact": "Contact Us",
+    "socials": "Connect With Us"
   }
 }

@@ -2,7 +2,6 @@
 import Navbar from '@/components/ui/NavbarComponent.vue'
 import Footer from '@/components/ui/FooterComponent.vue'
 import { RouterView } from 'vue-router'
-import CookieBanner2 from './components/CookieBanner2.vue';
 </script>
 
 <template>
@@ -10,7 +9,6 @@ import CookieBanner2 from './components/CookieBanner2.vue';
     <v-main>
       <Navbar />
       <RouterView />
-      <CookieBanner2 />
     </v-main>
     <Footer />
   </v-app>

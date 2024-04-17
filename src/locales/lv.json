@@ -18,6 +18,9 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod magna ut odio dictum, quis molestie sapien accumsan. Ut sollicitudin mauris id enim aliquam posuere. Donec congue purus nec convallis dapibus. Duis id massa eu odio suscipit consectetur. Vivamus dapibus, risus ut porttitor mattis, libero purus facilisis nisi, at facilisis ipsum ligula ut est. Nulla consequat tortor non viverra dapibus. Sed nec urna ut dolor rhoncus ultrices non nec est. Morbi non tortor urna.",
     "button": "Iegūt Lorem Ipsum"
   },
+  "contact": {
+    "slogan": "Nevarat izvēlēties ? Mēs palīdzēsim"
+  },
   "about": {
     "image-1-title": "Lorem ipsum",
     "image-1-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
@@ -27,11 +30,20 @@
     "image-3-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat."
   },
   "houses": {
-    "houses-title": "Mājas un izkartojumi",
+    "houses-title": "Mājas un izkārtojumi",
     "houses-btn": "Vairāk",
     "houses-area": "Kopējā platība",
     "houses-contour": "Siltuma konturs",
     "houses-terrace": "Terase",
     "houses-seiling": "Griestu augstums"
+  },
+  "footer": {
+    "useful-info": {
+      "title": "Noderīga informācija",
+      "privacy": "Privātuma politika",
+      "terms": "Noteikumi"
+    },
+    "contact": "Kontakti",
+    "socials": "Apskatiet mūs sociālajos tīklos"
   }
 }

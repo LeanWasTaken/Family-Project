@@ -10,7 +10,6 @@ import Contact from '@/components/content/ContactComponent.vue'
   <AboutProject class="about" />
   <Window class="window" />
   <Contact />
-
 </template>
 
 <style scoped>

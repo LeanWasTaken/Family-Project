@@ -8,7 +8,7 @@
         </p>
       </v-col>
       <v-col cols="12" md="6" class="image-column">
-        <div class="image" alt="An image of a modern house"></div>
+        <v-img class="image" src="/images/Moderna-3.webp" alt="An image of a modern house"></v-img>
       </v-col>
     </v-row>
     <v-row class="row">
@@ -19,7 +19,7 @@
         </p>
       </v-col>
       <v-col cols="12" md="6" class="image-column" :order="screenWidth > 960 ? 1 : 2">
-        <div class="image" alt="An image of a modern house"></div>
+        <v-img class="image" src="/images/Deco-3.webp" alt="An image of a modern house"></v-img>
       </v-col>
     </v-row>
     <v-row class="row">
@@ -30,7 +30,7 @@
         </p>
       </v-col>
       <v-col cols="12" md="6" class="image-column">
-        <div class="image" alt="An image of a modern house"></div>
+        <v-img class="image" src="/images/Orta-4.webp" alt="An image of a modern house"></v-img>
       </v-col>
     </v-row>
   </v-container>
@@ -56,7 +56,6 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .image {
-  background-image: url('/images/Deco-5.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

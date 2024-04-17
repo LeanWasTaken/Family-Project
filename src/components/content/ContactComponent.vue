@@ -1,25 +1,31 @@
 <template>
   <div class="container">
     <div class="contact">
+      <v-row class="row title">
+        <h1>{{ $t('contact.slogan') }}</h1>
+      </v-row>
       <v-row class="row">
-        <h1>Nevarat izvēlēties ? Mēs palīdzēsim</h1>
+        <v-col cols="12">
+          <v-textarea label="Jūsu jautājums" rows="1"></v-textarea>
+        </v-col>
       </v-row>
       <v-row class="row">
         <v-col cols="12" md="5">
           <v-text-field
-            v-model="phone"
-            :rules="phoneRules"
-            label="Phone number"
-            hide-details
+            v-model="name"
+            type="name"
+            :rules="nameRules"
+            label="Name"
             required
           ></v-text-field>
         </v-col>
         <v-col cols="12" md="5">
           <v-text-field
             v-model="email"
+            type="email"
+            placeholder="johndoe@gmail.com"
             :rules="emailRules"
-            label="Email"
-            hide-details
+            label="E-Mail"
             required
           ></v-text-field>
         </v-col>
@@ -34,17 +40,17 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-const phone = ref('')
+const name = ref('')
 const email = ref('')
 
-const phoneRules = [
+const nameRules = [
   (value) => {
     if (value) return true
-    return 'Phone number is required.'
+    return 'Name is required.'
   },
   (value) => {
-    if (/^\+?([0-9]{7,12})$/.test(value)) return true
-    return 'Phone number must be valid.'
+    if (value?.length > 6) return true
+    return 'Name must be at least 6 characters long.'
   }
 ]
 
@@ -55,20 +61,19 @@ const emailRules = [
   },
   (value) => {
     if (/.+@.+\..+/.test(value)) return true
-    return 'Email must be valid.'
+    return 'Email must be in the correct format.'
   }
 ]
 
 const valid = computed(() => {
   return (
-    phoneRules.every((rule) => rule(phone.value)) && emailRules.every((rule) => rule(email.value))
+    nameRules.every((rule) => rule(name.value)) && emailRules.every((rule) => rule(email.value))
   )
 })
 
 function submitForm() {
-  if (valid.value) {
-    // Handle form submission here
-    console.log('Form submitted:', phone.value, email.value)
+  if (valid.value && name.value && email.value) {
+    console.log('Form submitted:', name.value, email.value)
   } else {
     console.log('Form is invalid.')
   }
@@ -76,9 +81,12 @@ function submitForm() {
 </script>
 
 <style scoped>
+.title {
+  margin-bottom: 16px;
+}
 .container {
-  min-height: 300px;
   background-color: #f2f2f2;
+  padding-bottom: 16px;
 }
 .contact {
   max-width: 1240px;
@@ -91,9 +99,9 @@ function submitForm() {
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  height: 100%;
+  height: 56px;
+  width: 100%;
 }
 </style>
