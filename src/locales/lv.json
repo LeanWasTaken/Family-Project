@@ -28,6 +28,10 @@
   },
   "houses": {
     "houses-title": "Mājas un izkartojumi",
-    "houses-btn": "Vairāk"
+    "houses-btn": "Vairāk",
+    "houses-area": "Kopējā platība",
+    "houses-contour": "Siltuma konturs",
+    "houses-terrace": "Terase",
+    "houses-seiling": "Griestu augstums"
   }
 }

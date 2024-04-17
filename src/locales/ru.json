@@ -28,6 +28,10 @@
   },
   "houses": {
     "houses-title": "Дома и планировочные решения",
-    "houses-btn": "Узнать подробнее"
+    "houses-btn": "Узнать подробнее",
+    "houses-area": "Общая площадь",
+    "houses-contour": "Теплый контур",
+    "houses-terrace": "Терраса",
+    "houses-seiling": "Высота потолков"
   }
 }

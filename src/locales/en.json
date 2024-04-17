@@ -28,6 +28,10 @@
   },
   "houses": {
     "houses-title": "Houses and layouts",
-    "houses-btn": "More"
+    "houses-btn": "More",
+    "houses-area": "Total area",
+    "houses-contour": "Thermal contour",
+    "houses-terrace": "Terrace",
+    "houses-seiling": "Ceiling height"
   }
 }
