@@ -13,7 +13,6 @@
         <v-spacer />
         <v-btn color="success">{{ $t('cookies.accept-all') }}</v-btn>
         <v-btn color="warning">{{ $t('cookies.accept-essential') }}</v-btn>
-        <v-btn color="error">{{ $t('cookies.accept-none') }}</v-btn>
       </v-card-actions>
     </v-card>
   </v-bottom-sheet>

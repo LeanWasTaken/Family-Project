@@ -2,7 +2,7 @@
   <v-app-bar class="navbar">
     <v-app-bar-title class="py-auto">
       <RouterLink to="/">
-        <v-img height="28px" position="left" href="/" src="/SATISHOUSE.png" alt="logo" />
+        <v-img height="28px" position="left" href="/" src="/SATISHOUSE-noBG.png" alt="logo" />
       </RouterLink>
     </v-app-bar-title>
 

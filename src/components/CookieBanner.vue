@@ -10,7 +10,7 @@
     <v-banner-actions>
       <v-btn>{{ $t('cookies.accept-all') }}</v-btn>
 
-      <v-btn>{{ $t('cookies.accept-essential') }}</v-btn>
+      <v-btn>{{ $t('cookies.accept-suggested') }}</v-btn>
 
       <v-btn>{{ $t('cookies.accept-none') }}</v-btn>
     </v-banner-actions>

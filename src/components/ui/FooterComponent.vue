@@ -1,8 +1,8 @@
 <template>
-  <v-footer class="bg-blue-grey-darken-3">
+  <v-footer class="bg-blue-grey-darken-3 footer">
     <v-row justify="center" no-gutters>
       <v-col cols="12" sm="6" md="2">
-        <img class="logo" src="/logo.png" alt="logo" />
+        <img class="logo" src="/logo-noBG.png" alt="logo" />
         <div class="company-name title">SATIS HOUSE</div>
       </v-col>
 

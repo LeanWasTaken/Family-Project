@@ -8,10 +8,10 @@
   },
   "cookies": {
     "accept-all": "Pieņemt visus",
-    "accept-essential": "Pieņemt obligātos",
+    "accept-essential": "Pieņemt nepieciešamos",
     "accept-none": "Noraidīt visus",
     "cookie-title": "Sīkdatņu iestatījumi",
-    "cookie-description": "Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pieredzi mūsu vietnē. Noklikšķinot uz “Pieņemt visus”, jūs piekrītat visu sīkdatņu izmantošanai. Jūs varat izvēlēties pieņemt tikai obligātās sīkdatnes, noklikšķinot uz “Pieņemt obligātos”, vai noraidīt visas nesaistītās sīkdatnes, noklikšķinot uz “Noraidīt visus”. Lai iegūtu vairāk informācijas par mūsu sīkdatņu izmantošanu un jūsu privātuma tiesībām, lūdzu, aplūkojiet mūsu privātuma politiku."
+    "cookie-description": "Mēs izmantojam sīkdatnes, lai uzlabotu jūsu pieredzi mūsu vietnē. Noklikšķinot uz “Pieņemt visus”, jūs piekrītat visu sīkdatņu izmantošanai. Jūs varat izvēlēties pieņemt tikai vēlamša sīkdatnes, noklikšķinot uz “Pieņemt vēlamos”, vai noraidīt visas nesaistītās sīkdatnes, noklikšķinot uz “Noraidīt visus”. Lai iegūtu vairāk informācijas par mūsu sīkdatņu izmantošanu un jūsu privātuma tiesībām, lūdzu, aplūkojiet mūsu privātuma politiku."
   },
   "banner": {
     "welcome": "Laipni lūdzam Lorem Ipsum",

@@ -14,7 +14,7 @@
 
 <style scoped>
 .full {
-  min-height: 100vh;
+  min-height: calc(100vh - 64px);
   background-image: url('../../assets/images/house1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
