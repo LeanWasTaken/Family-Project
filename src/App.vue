@@ -6,15 +6,9 @@ import { RouterView } from 'vue-router'
 
 <template>
   <v-app>
-    <Navbar />
     <v-main>
-      <!--<RouterView v-slot="{ Component }">
-        <Transition name="route" mode="out-in">
-          <component :is="Component"></component>
-        </Transition>
-      </RouterView>-->
+      <Navbar />
       <RouterView />
-
     </v-main>
     <Footer />
   </v-app>
