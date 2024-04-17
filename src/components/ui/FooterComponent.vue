@@ -42,7 +42,7 @@
           <v-icon>mdi-facebook</v-icon>
         </v-btn>
         <v-btn icon class="social-media-icon">
-          <v-icon>mdi-twitter</v-icon>
+          <v-icon>mdi-telegram</v-icon>
         </v-btn>
         <v-btn icon class="social-media-icon">
           <v-icon>mdi-instagram</v-icon>
