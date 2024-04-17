@@ -70,7 +70,6 @@ const items = [
 ]
 
 const routes = [
-  { path: '/about', name: 'About Us', key: 'about' },
   { path: '/housing', name: 'Housing', key: 'housing' },
   { path: '/technologies', name: 'Technologies', key: 'technologies' }
 ]
