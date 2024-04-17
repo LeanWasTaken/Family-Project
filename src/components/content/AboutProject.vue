@@ -56,7 +56,7 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .image {
-  background-image: url('../../assets/images/house2.jpg');
+  background-image: url('/images/Deco-5.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
