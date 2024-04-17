@@ -3,6 +3,8 @@ import HomePage from '../pages/HomePage.vue'
 import AboutPage from '../pages/AboutPage.vue'
 import TechnologiesPage from '@/pages/TechnologiesPage.vue'
 import HousingPage from '@/pages/HousingPage.vue'
+import PolicyPage from '@/pages/PolicyPage.vue'
+import LegalNotesPage from '@/pages/LegalNotesPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +28,16 @@ const router = createRouter({
       path: '/housing',
       name: 'housing',
       component: HousingPage
+    },
+    {
+      path: '/policy',
+      name: 'policy',
+      component: PolicyPage
+    },
+    {
+      path: '/legalnotes',
+      name: 'legalnotes',
+      component: LegalNotesPage
     }
   ]
 })
