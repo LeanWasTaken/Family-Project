@@ -70,8 +70,8 @@ const items = [
 
 const routes = [
   { path: '/about', name: 'About Us', key: 'about' },
-  { path: '/services', name: 'Services', key: 'services' },
-  { path: '/contact', name: 'Contact', key: 'contact' }
+  { path: '/housing', name: 'Housing', key: 'housing' },
+  { path: '/technologies', name: 'Technologies', key: 'technologies' }
 ]
 
 const changeLocale = (newLocale) => {

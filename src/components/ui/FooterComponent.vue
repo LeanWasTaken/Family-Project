@@ -2,8 +2,8 @@
   <v-footer class="bg-blue-grey-darken-3">
     <v-row justify="center" no-gutters>
       <v-col cols="12" sm="6" md="2">
-        <img class="logo" src="/SATISHOUSE-noBG.png" alt="logo" />
-        <div class="company-name title">Company Name</div>
+        <img class="logo" src="/logo.png" alt="logo" />
+        <div class="company-name title">SATIS HOUSE</div>
       </v-col>
 
       <!-- Column 2: About Us -->
@@ -50,7 +50,7 @@
       </v-col>
 
       <v-col class="text-center mt-4" cols="12">
-        {{ new Date().getFullYear() }} — <strong>Company name</strong>
+        {{ new Date().getFullYear() }} — <strong>SATIS HOUSE</strong>
       </v-col>
     </v-row>
   </v-footer>
