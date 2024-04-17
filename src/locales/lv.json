@@ -3,7 +3,7 @@
   "welcome": "Laipni lūdzam mūsu tīmekļa vietnē.",
   "pages": {
     "about": "Par Mums",
-    "housing": "Mājas",
+    "housing": "Projekti",
     "technologies": "Tehnoloģijas"
   },
   "cookies": {
@@ -25,5 +25,9 @@
     "image-2-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat.",
     "image-3-title": "Lorem ipsum",
     "image-3-description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti sint eveniet est nostrum ducimus in cumque quis architecto suscipit eum dolore, saepe ab. Nihil odit est ipsum laborum necessitatibus placeat."
+  },
+  "houses": {
+    "houses-title": "Mājas un izkartojumi",
+    "houses-btn": "Vairāk"
   }
 }
