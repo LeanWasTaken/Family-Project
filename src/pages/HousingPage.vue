@@ -7,3 +7,9 @@ import Cards from '@/components/content/HouseCards.vue'
   <Banner />
   <Cards class="cards" />
 </template>
+
+<style scoped>
+.cards {
+  max-width: 1240px;
+}
+</style>
