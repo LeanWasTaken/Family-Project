@@ -14,7 +14,7 @@
 
 <style scoped>
 .full {
-  min-height: calc(100vh - 64px);
+  min-height: 80vh;
   background-image: url('/images/Deco-5.png');
   background-size: cover;
   background-repeat: no-repeat;
