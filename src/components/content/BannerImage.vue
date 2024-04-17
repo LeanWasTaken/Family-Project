@@ -14,11 +14,11 @@
 
 <style scoped>
 .full {
-  min-height: calc(100vh - 64px);
-  background-image: url('/images/Deco-5.png');
+  min-height: 70vh;
+  background-image: url('/images/Moderna-5.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 55% 55%;
   position: relative; /* DO NOT CHANGE THE POSITIONING ON ANY OF THESE */
 }
 
