@@ -1,9 +1,10 @@
 <template>
-  <v-app-bar
-    class="navbar"
-    >
-    <v-app-bar-title><RouterLink class="link" to="/"><img class="logo" src="/SATISHOUSE.png" alt="logo"/></RouterLink></v-app-bar-title>
-
+  <v-app-bar class="navbar">
+    <v-app-bar-title class="py-auto">
+      <RouterLink to="/">
+        <v-img height="28px" position="left" href="/" src="/SATISHOUSE.png" alt="logo" />
+      </RouterLink>
+    </v-app-bar-title>
 
     <!-- Navigation buttons -->
     <div v-if="screenWidth > 700" class="navigation-buttons">
@@ -102,11 +103,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .logo {
   height: 28px;
-  padding: 0px auto
-}
-.link {
-  text-decoration: none;
-  color: black;
+  float: right;
 }
 .navbar {
   color: white;
@@ -120,9 +117,5 @@ onBeforeUnmount(() => {
 
 .navigation-buttons .v-btn {
   margin: 0 10px;
-}
-
-.active {
-  font-weight: bold;
 }
 </style>

@@ -3,8 +3,8 @@
   "welcome": "Welcome to our website.",
   "pages": {
     "about": "About Us",
-    "services": "Services",
-    "contact": "Contacts"
+    "housing": "Housing",
+    "technologies": "Technologies"
   },
   "cookies": {
     "accept-all": "Accept All",
