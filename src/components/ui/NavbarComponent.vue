@@ -1,6 +1,9 @@
 <template>
-  <v-app-bar color="rgba(0, 0, 0, 0.5)" class="navbar">
-    <v-app-bar-title><RouterLink class="link" to="/">Company name</RouterLink></v-app-bar-title>
+  <v-app-bar
+    class="navbar"
+    >
+    <v-app-bar-title><RouterLink class="link" to="/"><img class="logo" src="/SATISHOUSE.png" alt="logo"/></RouterLink></v-app-bar-title>
+
 
     <!-- Navigation buttons -->
     <div v-if="screenWidth > 700" class="navigation-buttons">
@@ -97,9 +100,13 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-v-app-bar-title.link {
+.logo {
+  height: 28px;
+  padding: 0px auto
+}
+.link {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .navbar {
   color: white;
@@ -107,6 +114,7 @@ v-app-bar-title.link {
 
 .navigation-buttons {
   display: flex;
+  color: black;
   justify-content: center;
 }
 
