@@ -37,14 +37,16 @@
 .content {
   text-align: left;
   color: white;
+  margin-right: 300px;
 }
 
 .text {
+  font-size: 18px;
   max-width: 800px;
 }
 
 .welcome {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bold;
 }
 
