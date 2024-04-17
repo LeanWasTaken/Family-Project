@@ -5,7 +5,7 @@
         <h1>Nevarat izvēlēties ? Mēs palīdzēsim</h1>
       </v-row>
       <v-row class="row">
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="5">
           <v-text-field
             v-model="phone"
             :rules="phoneRules"
@@ -14,7 +14,7 @@
             required
           ></v-text-field>
         </v-col>
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="5">
           <v-text-field
             v-model="email"
             :rules="emailRules"
@@ -23,9 +23,9 @@
             required
           ></v-text-field>
         </v-col>
-      </v-row>
-      <v-row class="row">
-        <v-btn :disabled="!valid" @click="submitForm">Send Inquiry</v-btn>
+        <v-col cols="12" md="2">
+          <v-btn class="button" :disabled="!valid" @click="submitForm">Send Inquiry</v-btn></v-col
+        >
       </v-row>
     </div>
   </div>
@@ -78,11 +78,22 @@ function submitForm() {
 <style scoped>
 .container {
   min-height: 300px;
-  background-color: bisque;
+  background-color: #f2f2f2;
 }
 .contact {
-  max-width: 90%;
+  max-width: 1240px;
   margin: auto;
   padding: 24px;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: 100%;
 }
 </style>

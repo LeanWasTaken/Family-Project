@@ -38,6 +38,7 @@
   text-align: left;
   color: white;
   margin-right: 300px;
+  margin-left: 100px;
 }
 
 .text {
@@ -67,6 +68,7 @@
 @media (max-width: 840px) {
   .content {
     text-align: center;
+    margin: 20px 0;
   }
   .text {
     padding: 0px 12px;
