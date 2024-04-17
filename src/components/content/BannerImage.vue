@@ -15,7 +15,7 @@
 <style scoped>
 .full {
   min-height: 100vh;
-  background-image: url('../../assets/images/house1.jpg');
+  background-image: url('/images/Deco-5.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
