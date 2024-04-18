@@ -49,5 +49,10 @@
     },
     "contact": "Contact Us",
     "socials": "Connect With Us"
+  },
+  "contacts": {
+    "email": "E-mail",
+    "name": "Name",
+    "question": "Your question"
   }
 }

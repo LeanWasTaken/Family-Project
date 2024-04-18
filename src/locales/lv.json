@@ -49,5 +49,10 @@
     },
     "contact": "Kontakti",
     "socials": "Apskatiet mūs sociālajos tīklos"
+  },
+  "contacts": {
+    "email": "E-pasts",
+    "name": "Vārds",
+    "question": "Jūsu jautājums"
   }
 }
