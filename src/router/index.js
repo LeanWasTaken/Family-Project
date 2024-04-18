@@ -40,7 +40,7 @@ const router = createRouter({
       name: 'legalnotes',
       component: LegalNotesPage
     },
-    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound }
   ]
 })
 
