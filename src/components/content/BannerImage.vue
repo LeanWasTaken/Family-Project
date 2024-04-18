@@ -15,7 +15,7 @@
 <style scoped>
 .full {
   min-height: 70vh;
-  background-image: url('/images/Moderna-5.png');
+  background-image: url('/images/Moderna-5.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 55% 55%;

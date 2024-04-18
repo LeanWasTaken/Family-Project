@@ -5,6 +5,7 @@ import TechnologiesPage from '@/pages/TechnologiesPage.vue'
 import HousingPage from '@/pages/HousingPage.vue'
 import PolicyPage from '@/pages/PolicyPage.vue'
 import LegalNotesPage from '@/pages/LegalNotesPage.vue'
+import NotFound from '@/NotFound.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,7 +39,8 @@ const router = createRouter({
       path: '/legalnotes',
       name: 'legalnotes',
       component: LegalNotesPage
-    }
+    },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound }
   ]
 })
 
