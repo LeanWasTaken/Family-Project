@@ -19,7 +19,11 @@
     "button": "Get Lorem Ipsum'd"
   },
   "contact": {
-    "slogan": "Can't choose ? We're here to help"
+    "slogan": "Can't choose ? We're here to help",
+    "button": "Send",
+    "name": "Name",
+    "email": "E-Mail",
+    "question": "Your question"
   },
   "about": {
     "image-1-title": "Lorem ipsum",

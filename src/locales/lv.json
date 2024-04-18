@@ -19,7 +19,11 @@
     "button": "Iegūt Lorem Ipsum"
   },
   "contact": {
-    "slogan": "Nevarat izvēlēties ? Mēs palīdzēsim"
+    "slogan": "Nevarat izvēlēties ? Mēs palīdzēsim",
+    "button": "Nosūtīt",
+    "name": "Vārds",
+    "email": "E-Pasts",
+    "question": "Jūsu jautājums"
   },
   "about": {
     "image-1-title": "Lorem ipsum",

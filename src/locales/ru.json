@@ -19,7 +19,11 @@
     "button": "Получить Lorem Ipsum"
   },
   "contact": {
-    "slogan": "Не можете выбрать? Мы Вам поможем!"
+    "slogan": "Не можете выбрать? Мы Вам поможем!",
+    "button": "Nosūtīt but in russian",
+    "name": "Vārds but in russian",
+    "email": "E-Pasts but in russian",
+    "question": "Jūsu jautājums but in russian"
   },
   "about": {
     "image-1-title": "Lorem ipsum",
