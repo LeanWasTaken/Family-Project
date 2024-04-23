@@ -26,12 +26,9 @@
 
         <v-list>
           <v-list-item v-for="route in routes" :key="route.path">
-            <v-btn
-              variant="text"
-              :to="route.path"
-              :class="{ active: isActive(route.path) }"
-              >{{ $t(`pages.${route.key.toLowerCase()}`) }}</v-btn
-            >
+            <v-btn variant="text" :to="route.path" :class="{ active: isActive(route.path) }">{{
+              $t(`pages.${route.key.toLowerCase()}`)
+            }}</v-btn>
           </v-list-item>
         </v-list>
       </v-menu>

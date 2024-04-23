@@ -7,14 +7,11 @@ import Contact from '@/components/content/ContactComponent.vue'
 <template>
   <Banner />
   <Cards class="cards" />
-  <Contact class="contact" />
+  <Contact />
 </template>
 
 <style scoped>
 .cards {
   max-width: 1240px;
-}
-.contact {
-  margin-top: 12px;
 }
 </style>
