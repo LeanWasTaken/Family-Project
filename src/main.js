@@ -9,7 +9,6 @@ import * as directives from 'vuetify/directives'
 import en from '@/locales/en.json'
 import lv from '@/locales/lv.json'
 import ru from '@/locales/ru.json'
-import { VueEmailPlugin } from 'vue-email'
 
 const i18n = createI18n({
   legacy: false,
@@ -36,6 +35,5 @@ const app = createApp(App)
 app.use(vuetify)
 app.use(router)
 app.use(i18n)
-app.use(VueEmailPlugin)
 
 app.mount('#app')

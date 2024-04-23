@@ -14,8 +14,9 @@
           <v-text-field
             v-model="name"
             type="name"
+            placeholder="Jānis"
             :rules="nameRules"
-            label="Name"
+            :label="nameLabel"
             required
           ></v-text-field>
         </v-col>
@@ -25,12 +26,14 @@
             type="email"
             placeholder="johndoe@gmail.com"
             :rules="emailRules"
-            label="E-Mail"
+            :label="emailLabel"
             required
           ></v-text-field>
         </v-col>
         <v-col cols="12" md="2">
-          <v-btn class="button" :disabled="!valid" @click="submitForm">Send Inquiry</v-btn></v-col
+          <v-btn class="button" :disabled="!valid" @click="submitForm">{{
+            $t('contact.button')
+          }}</v-btn></v-col
         >
       </v-row>
     </div>
@@ -39,9 +42,15 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const name = ref('')
 const email = ref('')
+
+const nameLabel = t('contact.name')
+const emailLabel = t('contact.email')
 
 const nameRules = [
   (value) => {
@@ -60,7 +69,7 @@ const emailRules = [
     return 'Email is required.'
   },
   (value) => {
-    if (/.+@.+\..+/.test(value)) return true
+    if (value) return true
     return 'Email must be in the correct format.'
   }
 ]

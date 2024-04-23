@@ -19,7 +19,7 @@
       </v-btn>
     </div>
     <div v-else class="navigation-buttons">
-      <v-menu open-on-hover>
+      <v-menu open-on-hover v-model="dropdown">
         <template v-slot:activator="{ props }">
           <v-btn v-bind="props" color="primary"><v-icon size="large">mdi-menu</v-icon>Menu</v-btn>
         </template>
@@ -28,7 +28,6 @@
           <v-list-item v-for="route in routes" :key="route.path">
             <v-btn
               variant="text"
-              @click="changeLocale(item.locale)"
               :to="route.path"
               :class="{ active: isActive(route.path) }"
               >{{ $t(`pages.${route.key.toLowerCase()}`) }}</v-btn
@@ -58,11 +57,16 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const router = useRouter()
 const { locale } = useI18n()
+
+const screenWidth = ref(window.innerWidth)
+let dropdown = ref(false)
+
 const items = [
   { title: 'Latviski', locale: 'lv' },
   { title: 'Русский', locale: 'ru' },
@@ -76,15 +80,12 @@ const routes = [
 
 const changeLocale = (newLocale) => {
   locale.value = newLocale
+  dropdown.value = false
 }
 
 const isActive = (path) => {
   return router.currentRoute.value.path === path
 }
-
-import { ref, onMounted, onBeforeUnmount } from 'vue'
-
-const screenWidth = ref(window.innerWidth)
 
 const updateScreenWidth = () => {
   screenWidth.value = window.innerWidth
