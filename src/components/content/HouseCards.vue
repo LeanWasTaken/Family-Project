@@ -19,8 +19,9 @@
             <v-card-text class="house-description"
               >{{ $t('houses.houses-seiling') }}: {{ house.ceiling }}</v-card-text
             >
-            <v-btn class="button" @click="openDialog(house)">{{ $t('houses.houses-btn') }}</v-btn>
+            
           </v-card-item>
+          <v-card-actions class="actions"><v-spacer /><v-btn class="button" @click="openDialog(house)">{{ $t('houses.houses-btn') }}</v-btn></v-card-actions>
         </v-card>
       </v-col>
     </v-row>
@@ -56,6 +57,7 @@
           </v-row>
         </v-container>
         <v-card-actions>
+          <v-spacer />
           <v-btn color="primary" @click="dialogVisible = false">{{ $t('common.close') }}</v-btn>
         </v-card-actions>
       </v-card>
@@ -175,6 +177,10 @@ function openDialog(house) {
 </script>
 
 <style scoped>
+.actions {
+  margin-top: 0px;
+  padding-top: 0px
+}
 .house-header {
   font-size: 40px;
 }
