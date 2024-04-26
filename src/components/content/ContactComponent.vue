@@ -95,7 +95,9 @@ function submitForm() {
 }
 .container {
   background-color: #f2f2f2;
+  margin-top: 12px;
   padding-bottom: 16px;
+  width: 100%;
 }
 .contact {
   max-width: 1240px;

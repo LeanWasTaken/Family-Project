@@ -4,7 +4,7 @@
       <v-row justify="center" no-gutters class="text-center main-row">
         <!-- Logo and Company Name -->
         <v-col cols="12" sm="12" md="3">
-          <img class="logo" src="/logo-noBG.png" alt="logo" />
+          <img class="logo" src="/logo1-noBG.png" alt="logo" />
           <div class="company-name title">SATIS HOUSE</div>
         </v-col>
 
