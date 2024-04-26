@@ -56,7 +56,7 @@
           </v-row>
         </v-container>
         <v-card-actions>
-          <v-btn color="primary" @click="dialogVisible = false">{{ $t('common.close') }}</v-btn>
+          <v-btn class="button" @click="dialogVisible = false">{{ $t('common.close') }}</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
