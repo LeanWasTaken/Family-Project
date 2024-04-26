@@ -44,6 +44,13 @@
                 <p>{{ $t('houses.houses-contour') }}: {{ selectedHouse.contour }}</p>
                 <p>{{ $t('houses.houses-terrace') }}: {{ selectedHouse.terrace }}</p>
                 <p>{{ $t('houses.houses-seiling') }}: {{ selectedHouse.ceiling }}</p>
+                <br>
+                <p>{{ $t('houses.houses-bedroom') }}: {{ selectedHouse.bedroom }}</p>
+                <p>{{ $t('houses.houses-workroom') }}: {{ selectedHouse.workroom }}</p>
+                <p>{{ $t('houses.houses-kitchen-livingroom') }}: {{ selectedHouse.kitchenlivingroom }}</p>
+                <p>{{ $t('houses.houses-bathroom') }}: {{ selectedHouse.bathroom }}</p>
+                <p>{{ $t('houses.houses-techroom') }}: {{ selectedHouse.techroom }}</p>
+                <p>{{ $t('houses.houses-terraces') }}: {{ selectedHouse.terraces }}</p>
               </v-card-text>
             </v-col>
           </v-row>
@@ -71,6 +78,11 @@ const houses = ref([
     contour: '82,88 m²',
     terrace: '19,96 m²',
     ceiling: '2,8 m',
+    bedroom: '2',
+    kitchenlivingroom: '1',
+    bathroom: '1',
+    techroom: '1',
+    terraces: '1',
     images: [
       './images/Deco-1.webp',
       './images/Deco-2.webp',
@@ -89,6 +101,11 @@ const houses = ref([
     contour: '108,61 m²',
     terrace: '12,36 m²',
     ceiling: '2,8 m',
+    bedroom: '3-4',
+    kitchenlivingroom: '1',
+    bathroom: '2',
+    techroom: '1-2',
+    terraces: '1',
     images: [
       './images/Orta-1.webp',
       './images/Orta-2.webp',
@@ -108,6 +125,12 @@ const houses = ref([
     contour: '129,77 m²',
     terrace: '44,26 m²',
     ceiling: '2,8 m',
+    bedroom: '3-4',
+    workroom: '1',
+    kitchenlivingroom: '1',
+    bathroom: '2',
+    techroom: '2',
+    terraces: '1',
     images: [
       './images/Moderna-1.webp',
       './images/Moderna-2.webp',
@@ -115,6 +138,28 @@ const houses = ref([
       './images/Moderna-4.webp',
       './images/Moderna-5.webp',
       './images/Moderna-6.webp'
+    ]
+  },
+  {
+    name: 'Villa Dante',
+    image: './images/Dante-4.webp',
+    area: '311,5 m²',
+    contour: '129,77 m²',
+    terrace: '58,3 m²',
+    ceiling: '2,8 m',
+    bedroom: ' ',
+    workroom: ' ',
+    kitchenlivingroom: ' ',
+    bathroom: ' ',
+    techroom: ' ',
+    terraces: ' ',
+    images: [
+      './images/Dante-7.webp',
+      './images/Dante-5.webp',
+      './images/Dante-6.webp',
+      './images/Dante-3.webp',
+      './images/Dante-1.webp',
+      './images/Dante-2.webp'
     ]
   }
 ])

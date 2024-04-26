@@ -40,7 +40,12 @@
     "houses-contour": "Siltuma konturs",
     "houses-terrace": "Terase",
     "houses-seiling": "Griestu augstums",
-    "close": "Aizvērt"
+    "houses-bedroom": "Guļamistaba",
+    "houses-workroom": "Darbistaba",
+    "houses-kitchen-livingroom": "Dzīvojamā istaba - Virtuve",
+    "houses-bathroom": "Vannas istaba",
+    "houses-techroom": "Palīgtelpa",
+    "houses-terraces": "Terase"
   },
   "footer": {
     "useful-info": {
@@ -55,5 +60,9 @@
     "email": "E-pasts",
     "name": "Vārds",
     "question": "Jūsu jautājums"
+  },
+  "common": {
+    "close": "Aizvērt",
+    "or": "vai"
   }
 }

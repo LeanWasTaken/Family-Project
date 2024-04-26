@@ -39,7 +39,13 @@
     "houses-area": "Total area",
     "houses-contour": "Thermal contour",
     "houses-terrace": "Terrace",
-    "houses-seiling": "Ceiling height"
+    "houses-seiling": "Ceiling height",
+    "houses-bedroom": "Bedroom",
+    "houses-workroom": "Office",
+    "houses-kitchen-livingroom": "Livingroom-kitchen",
+    "houses-bathroom": "Bathroom",
+    "houses-techroom": "Utility room",
+    "houses-terraces": "Terrace"
   },
   "footer": {
     "useful-info": {
@@ -54,5 +60,9 @@
     "email": "E-mail",
     "name": "Name",
     "question": "Your question"
+  },
+  "common": {
+    "close": "Close",
+    "or": "or"
   }
 }
