@@ -59,12 +59,10 @@ onBeforeUnmount(() => {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 300px;
 }
 
 .content {
   max-width: 1240px;
-  margin-bottom: 10px;
 }
 
 .text-column {
@@ -73,18 +71,10 @@ onBeforeUnmount(() => {
   justify-content: center;
 }
 
-/* Media query for smaller viewports */
 @media (max-width: 960px) {
-  .content {
-    padding: 0px 25px;
-  }
-
   .text-column {
     align-items: center;
     text-align: center;
-  }
-  .image {
-    min-height: 400px;
   }
 }
 </style>

@@ -8,7 +8,7 @@ import Contact from '@/components/content/ContactComponent.vue'
 <template>
   <Banner class="banner" />
   <AboutProject class="about" />
-  <Window class="window" />
+  <Window />
   <Contact />
 </template>
 

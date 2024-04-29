@@ -32,10 +32,8 @@
         <v-container class="wrapper">
           <v-row>
             <v-col cols="12" lg="8" md="8">
-              <v-carousel v-if="selectedHouse" v-model="currentImageIndex" hide-delimiters>
-                <v-carousel-item v-for="(image, index) in selectedHouse.images" :key="index">
-                  <v-img class="dialog-image" cover :src="image" />
-                </v-carousel-item>
+              <v-carousel v-if="selectedHouse" height="auto" v-model="currentImageIndex" hide-delimiters>
+                <v-carousel-item contain class="carousel-item" :src="image" v-for="(image, index) in selectedHouse.images" :key="index" />
               </v-carousel>
             </v-col>
             <v-col cols="12" lg="4" md="4">
@@ -57,16 +55,30 @@
           </v-row>
         </v-container>
         <v-card-actions>
-          <v-spacer />
           <v-btn class="button" @click="dialogVisible = false">{{ $t('common.close') }}</v-btn>
         </v-card-actions>
       </v-card>
     </v-dialog>
   </v-container>
+  {{ screenWidth > 768 ? 400 : 'auto' }}
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
+
+const screenWidth = ref(window.innerWidth)
+
+const updateScreenWidth = () => {
+  screenWidth.value = window.innerWidth
+}
+
+onMounted(() => {
+  window.addEventListener('resize', updateScreenWidth)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateScreenWidth)
+})
 
 const dialogVisible = ref(false)
 const selectedHouse = ref(null)
@@ -191,12 +203,8 @@ function openDialog(house) {
 }
 
 .wrapper {
+  max-width: 1240px;
   width: 100%;
-}
-
-.dialog-image {
-  width: 100%;
-  background-size: cover;
 }
 
 .button {
@@ -222,5 +230,9 @@ function openDialog(house) {
 }
 .preview-dialog {
   max-width: 1240px;
+}
+
+.carousel-item {
+  min-height: 400px
 }
 </style>
